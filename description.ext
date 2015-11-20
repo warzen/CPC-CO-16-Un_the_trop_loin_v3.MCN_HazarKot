@@ -1,0 +1,68 @@
+author="Warzen";
+OnLoadName = "Un thé trop loin";
+OnLoadMission = "MISSION SANS LEADER - seul les rôles de FTL sont nécessaires. V2";
+loadScreen = "Images\d_p.jpg";
+OnLoadMissionTime = True;
+
+respawn="Bird";
+RespawnDelay = 5;
+
+Briefing = 1;
+Debriefing = 1;
+Saving = 0;
+
+ShowCompass = 1;
+ShowMap = 1;
+ShowGPS = 1;
+ShowWatch = 1;
+ShowPad = 1;
+ShowRadio = 1;
+
+class Header
+{
+    gameType = COOP;
+    minPlayers = 15;
+    maxPlayers = 18;
+};
+
+
+forceRotorLibSimulation = 0;	// Rotor Simu selon joueur
+enableDebugConsole = 1;			// Console debug dispo uniquement admin
+joinUnassigned = 1;				// Joueur non assigne
+
+
+
+class CfgIdentities
+{
+	class War_Sayyaf
+	{
+		name="Gulbuddin Sayyaf";
+		face="PersianHead_A3_01";
+		glasses="None";
+		speaker="Male01GRE";
+		pitch=1.1;
+	};
+};
+
+
+class CfgDebriefing
+{  
+	class End1
+	{
+		title = "Mission Accomplie";
+		subtitle = "";
+		description = "Bravo ! Vous avez tué Gulbuddin Sayyaf !";
+		pictureBackground = "";
+		picture = "Images\cpc256.paa";
+		pictureColor[] = {1,1,1,1};
+	};
+    class End2
+	{
+		title = "Mission Echouée";
+		subtitle = "";
+		description = "EPIC FAIL !";
+		pictureBackground = "";
+		picture = "Images\cpc256.paa";
+		pictureColor[] = {1,1,1,1};
+	};
+};
