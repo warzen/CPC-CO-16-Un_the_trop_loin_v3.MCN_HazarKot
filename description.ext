@@ -1,6 +1,6 @@
-author="Warzen";
+﻿author="Warzen";
 OnLoadName = "Un thé trop loin";
-OnLoadMission = "MISSION SANS LEADER - seul les rôles de FTL sont nécessaires. V2";
+OnLoadMission = "MISSION SANS LEADER - seul les rôles de FTL sont nécessaires. V3";
 loadScreen = "Images\d_p.jpg";
 OnLoadMissionTime = True;
 

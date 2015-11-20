@@ -1,4 +1,4 @@
-version=12;
+﻿version=12;
 class Mission
 {
 	addOns[]=
@@ -35,7 +35,8 @@ class Mission
 	randomSeed=13589232;
 	class Intel
 	{
-		briefingName="CPC-CO[16]-Un thé trop loin v2";
+		briefingName="CPC-CO[16]-Un thé trop loin v3";
+		overviewText="Escorte d'un colonel, mission sans leader, un coordinateur est le bienvenu."
 		resistanceWest=0;
 		startWeather=0.20999999;
 		startWind=0.099999994;
