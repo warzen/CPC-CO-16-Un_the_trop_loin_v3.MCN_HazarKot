@@ -12,7 +12,10 @@ player createDiaryRecord ["Diary", ["Equipement", "Le convoi est composé d'un U
 - un Ural<br/>
 - un Ural équippé d'un ZU-23<br/>
 - un UAZ équipé d'un lance-grenade<br/><br/>
-Une radio courte-portée est fournie à tout le monde. Les FTL ont même été dotés d'une 148 !!
+Une radio courte-portée est fournie à tout le monde. Les FTL ont même été dotés d'une 148 !!<br/><br/>
+Suggestions d'organisation:<br/>
+Chaque groupe prend un canal sur la 343, dans l'ordre du lobby (ie première équipe en canal 1, deuxième équipe en canal 2...Etc). Pour l'ordre des 
+véhicules dans le convoi, vous pouvez utiliser l'ordre par défaut (ie l'ordre dans lequel se trouve déjà les véhicules) ou le modifier si besoin.
 "]];
 
 player createDiaryRecord ["Diary", ["Renseignements", "<font color='#5ACE00'>Horaire:</font color> en fin d'après-midi<br/><br/>
@@ -55,7 +58,7 @@ de convaincre un des chefs locaux, Gulbuddin Sayyaf, de se rallier au Président
 
 // Briefing et objectifs
 
-//objTemplate = player createSimpleTask["D�truire v�hicule"];
-//objTemplate setSimpleTaskDescription["D�truisez le v�hicule sur le point <font color='#6699FF'><marker name='marker_obj_template'>Objectif</marker></font color>.","D�truire v�hicule","D�truire v�hicule"];
+//objTemplate = player createSimpleTask["D�truire v�hicule"];
+//objTemplate setSimpleTaskDescription["D�truisez le v�hicule sur le point <font color='#6699FF'><marker name='marker_obj_template'>Objectif</marker></font color>.","D�truire v�hicule","D�truire v�hicule"];
 //objTemplate setSimpleTaskDestination (getMarkerPos "marker_obj_template");
 

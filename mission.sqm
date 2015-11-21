@@ -1553,7 +1553,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_SatellitePhone_F";
 			skill=0.60000002;
-			init="this enableSimulation false; this addAction [ ""<t color='#FF0000'>Confirmer la mort de Sayyaf - FIN DE MISSION</t>"", {   if ( alive WZ_boss) then { [""End2"",false,true] call BIS_fnc_endMission; } else { [""End1"",true,true] call BIS_fnc_endMission;};      }];";
+			init="this enableSimulation false; this addAction [ ""<t color='#FF0000'>Confirmer la mort de Sayyaf - FIN DE MISSION</t>"", {   if ( alive WZ_boss) then { [""End2"",false,true] remoteExec [""BIS_fnc_endMission"",0]; } else { [""End1"",true,true] remoteExec [""BIS_fnc_endMission"",0];};      }];";
 		};
 	};
 	class Markers
